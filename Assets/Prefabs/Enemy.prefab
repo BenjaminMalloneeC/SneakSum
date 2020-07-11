@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 370166506723535884}
   - component: {fileID: 370166506723535885}
   m_Layer: 0
-  m_Name: Example Enemy
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,6 +52,9 @@ MonoBehaviour:
   moveSpeed: 1
   healingRate: 1
   maxHealth: 20
+  hearingDistance: 2
+  fieldOfView: 90
+  visionMaxDistance: 40
 --- !u!212 &370166506723535885
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,7 +94,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2591a6ab3caaadb449ca6ed9bf7b4fb0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6226415, g: 0.14391243, b: 0.14391243, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
